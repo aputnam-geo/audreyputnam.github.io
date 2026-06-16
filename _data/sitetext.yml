@@ -11,29 +11,29 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: Planetary Geologist
+    text: Audrey Putnam
+    button: Hello!
+    buttonlink: "#currentposition"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "What I do"
+    text:
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Research"
+        desc: "I am a planetary geoscientist interested in understanding the processes that control changing surface environments on terrestrial planets. I target questions at the intersection of the fundamental physical and chemical processes that determine the long-term habitability of planetary surfaces and the geologic records they produce. I approach these questions with an array of perspectives spanning sub-disciplines and spatial scales of analysis from satellite to electron microscopy."
+        icon: fa fa-search #find more at https://fontawesome.com/icons
+      - title: "Teaching and Outreach"
+        desc: "I was greatly impacted by the opportunities I have had to learn about geoscience in the field. I am passionate about providing those opportunities for learning and healthy challenge to others through my own teaching and improving accessibility for a wide range of potential geoscientists. Furthermore, I am interested to integrate student creativity and core understanding of processes through world building."
+        icon: fas fa-globe
+      - title: "Outside of work"
+        desc: "I love to get outside and hike, whitewater canoe, and ski. I also enjoy table-top role-playing games."
+        icon: fa fa-tree
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "What I have done"
+    text: "Research projects and teaching"
     section: portfolio
     closebutton: "Close Project"
 
@@ -44,29 +44,29 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "Citizen Science in Colorado"
+        year: "-2014"
+        desc: "Volunteered banding birds and monitoring pika and bat populations and falcon scrapes"
+        image: assets/img/timeline/IMG_0061.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "Undergraduate at Dartmouth College"
+        year: "2014-2018"
+        desc: "Sophomore and Junior Science Scholar working with Dr Meredith Kelly and presented a Senior honors thesis continuing my work with Dr Abigail Fraeman"
+        image: assets/img/timeline/IMG_0061.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "MSc at Dartmouth College"
+        year: "2018-2020"
+        desc: "Mapped sedimentary fans and their context in Garu and Camichel craters on Mars and constrained the volumes of liquid water and timescale required to form these features."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+      - title: "Ph.D. at Rice University"
+        year: "2020-2026"
+        desc: "Worked with Dr Kirsten Siebach and the NASA DIGMARS team in Iceland"
+        image: assets/img/timeline/Iceland-DIGMARS2022_Siebach_2014(1).jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Could work next with you!"
 
   about:
     title: "About Us"
@@ -131,7 +131,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "You can contact me through the box below"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -146,17 +146,17 @@ en: &DEFAULT_EN
 
   footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+  #  social:
+  #    - url: https://twitter.com
+  #      icon: "fab fa-twitter"
+  #    - url: https://facebook.com
+  #      icon: "fab fa-facebook-f"
+  #    - url: https://linkedin.com
+  #      icon: "fab fa-linkedin-in"
+  #    - url: https://github.com/raviriley/agency-jekyll-theme
+  #      icon: "fab fa-github"
+  #    - url: https://instagram.com
+  #      icon: "fab fa-instagram"
 
 en-001: #English (World)
   <<: *DEFAULT_EN
