@@ -28,7 +28,7 @@ en: &DEFAULT_EN
         desc: "I was greatly impacted by the opportunities I have had to learn about geoscience in the field. I am passionate about providing those opportunities for learning and healthy challenge to others through my own teaching and improving accessibility for a wide range of potential geoscientists. Furthermore, I am interested to integrate student creativity and core understanding of processes through world building."
         icon: fas fa-globe
       - title: "Outside of work"
-        desc: "I love to get outside and hike, whitewater canoe, and ski. I also enjoy table-top role-playing games."
+        desc: "I love to get outside and hike, whitewater canoe, and ski. I also enjoy table-top role-playing games and world building as creative hobbies."
         icon: fa fa-tree
 
   portfolio:
@@ -39,30 +39,32 @@ en: &DEFAULT_EN
 
   timeline:
     title: "Timeline"
-    text: "Lorem ipsum timeline"
+    text: ""
     section: timeline
+    button: CV
+    buttonlink: "cv"
     # left is the default
     #start_align: "left"
     events:
       - title: "Citizen Science in Colorado"
         year: "-2014"
         desc: "Volunteered banding birds and monitoring pika and bat populations and falcon scrapes"
-        image: assets/img/timeline/IMG_0061.jpg
+        image: assets/img/timeline/IMG_0061_clipped.jpg
         alt:
       - title: "Undergraduate at Dartmouth College"
         year: "2014-2018"
         desc: "Sophomore and Junior Science Scholar working with Dr Meredith Kelly and presented a Senior honors thesis continuing my work with Dr Abigail Fraeman"
-        image: assets/img/timeline/IMG_0061.jpg
+        image: assets/img/timeline/IMG_0061_clipped.jpg
         alt:
       - title: "MSc at Dartmouth College"
         year: "2018-2020"
         desc: "Mapped sedimentary fans and their context in Garu and Camichel craters on Mars and constrained the volumes of liquid water and timescale required to form these features."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/timeline/IMG_0061_clipped.jpg
         alt: image alt text
       - title: "Ph.D. at Rice University"
         year: "2020-2026"
         desc: "Worked with Dr Kirsten Siebach and the NASA DIGMARS team in Iceland"
-        image: assets/img/timeline/Iceland-DIGMARS2022_Siebach_2014(1).jpg
+        image: assets/img/timeline/Iceland-DIGMARS2022_Siebach_2014_clipped.jpg
         alt:
         # you can enforce the alignment
         align: right
@@ -130,7 +132,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
+    title: "Contact Me"
     text: "You can contact me through the box below"
     section: contact
     name: "Name*"
