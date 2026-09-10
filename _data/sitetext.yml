@@ -49,22 +49,22 @@ en: &DEFAULT_EN
       - title: "Citizen Science in Colorado"
         year: "-2014"
         desc: "Volunteered banding birds and monitoring pika and bat populations and falcon scrapes"
-        image: assets/img/timeline/IMG_0061_clipped.jpg
+        image: assets/img/timeline/IMG_0061_clipped_corr.jpg
         alt:
       - title: "Undergraduate at Dartmouth College"
         year: "2014-2018"
         desc: "Sophomore and Junior Science Scholar working with Dr Meredith Kelly and presented a Senior honors thesis continuing my work with Dr Abigail Fraeman"
-        image: assets/img/timeline/IMG_0061_clipped.jpg
+        image: assets/img/timeline/IMG_0061_clipped_corr.jpg
         alt:
       - title: "MSc at Dartmouth College"
         year: "2018-2020"
         desc: "Mapped sedimentary fans and their context in Garu and Camichel craters on Mars and constrained the volumes of liquid water and timescale required to form these features."
-        image: assets/img/timeline/IMG_0061_clipped.jpg
+        image: assets/img/timeline/IMG_0061_clipped_corr.jpg
         alt: image alt text
       - title: "Ph.D. at Rice University"
         year: "2020-2026"
         desc: "Worked with Dr Kirsten Siebach and the NASA DIGMARS team in Iceland"
-        image: assets/img/timeline/Iceland-DIGMARS2022_Siebach_2014_clipped.jpg
+        image: assets/img/timeline/Iceland-DIGMARS2022_Siebach_2014_clipped_corr.jpg
         alt:
         # you can enforce the alignment
         align: right
