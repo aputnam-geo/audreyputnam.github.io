@@ -49,7 +49,7 @@ en: &DEFAULT_EN
       - title: "Citizen Science in Colorado"
         year: "-2014"
         desc: "Volunteered banding birds and monitoring pika and bat populations and falcon scrapes"
-        image: assets/img/timeline/IMG_0061_clipped.JPG
+        image: assets/img/timeline/IMG_0061_clipped.jpg
         alt:
       - title: "Undergraduate at Dartmouth College"
         year: "2014-2018"
